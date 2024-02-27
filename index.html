@@ -129,6 +129,16 @@
             border-bottom: 1px solid #ffffff !important;
          }
 
+         .display-light {
+            display: none !important;
+         }
+
+         .display-dark {
+            display: inline-block !important;
+         }
+
+
+
          .darkmode-transparent {
             background-color: transparent !important;
          }
@@ -173,25 +183,39 @@
 
             <tr>
                <td style="padding: 0;">
-                  <table width="100%" style="border-spacing: 0;" role="presentation">
+                  <table style="border-spacing: 0;" role="presentation" align="left">
                      <tr>
-                        <td class="" style="padding: 15px 0; text-align: left;">
-                           <a href="https://example.com/1" target="_blank">
+                        <td style="padding: 15px 0;">
+                           <a class="display-light" href="https://example.com/1" target="_blank">
                               <img src="https://raw.githubusercontent.com/shihobyrd/liberty-london-promotional-email/main/img/liberty-logo-light.png" alt="logo" title="logo" width="150"
                                    style="border: 0;">
                            </a>
+                           <a class="display-dark" href="https://example.com/1" target="_blank" style="display: none;">
+                              <img src="https://raw.githubusercontent.com/shihobyrd/liberty-london-promotional-email/main/img/dark-mode-img/liberty-logo-dark.png" alt="logo" title="logo" width="150"
+                                   style="border: 0;">
+                           </a>
                         </td>
+                     </tr>
+                  </table>
+                  <table style="border-spacing: 0;" role="presentation" align="right">
+                     <tr>
                         <td class="darkmode-bg" style="text-align: right; color: #212121;">
-                           <p style="font-weight: 300; margin: 0;line-height: 20px; letter-spacing: 2px; padding: 0 10px; display: inline-block;">
+                           <p style="font-weight: 300; margin: 0;line-height: 20px; letter-spacing: 2px; padding: 20px 10px 0; display: inline-block;">
                               <a href="https://example.com/2" target="_blank" style="font-size: 13px; color: #212121; color: inherit;">BEAUTY</a>
                            </p>
-                           <p style="font-weight: 300; margin: 0;line-height: 20px; letter-spacing: 2px; padding: 0 10px; display: inline-block;">
+                        </td>
+                        <td class="darkmode-bg" style="text-align: right; color: #212121;">
+                           <p style="font-weight: 300; margin: 0;line-height: 20px; letter-spacing: 2px; padding: 20px 10px 0; display: inline-block;">
                               <a href="https://example.com/3" target="_blank" style="font-size: 13px; color: #212121; color: inherit;">FABRICS</a>
                            </p>
-                           <p style="font-weight: 300; margin: 0;line-height: 20px; letter-spacing: 2px; padding: 0 10px; display: inline-block;">
+                        </td>
+                        <td class="darkmode-bg" style="text-align: right; color: #212121;">
+                           <p style="font-weight: 300; margin: 0;line-height: 20px; letter-spacing: 2px; padding: 20px 10px 0; display: inline-block;">
                               <a href="https://example.com/4" target="_blank" style="font-size: 13px; color: #212121; color: inherit;">WOMEN'S</a>
                            </p>
-                           <p style="font-weight: 300; margin: 0;line-height: 20px; letter-spacing: 2px; padding: 0 10px; display: inline-block;">
+                        </td>
+                        <td class="darkmode-bg" style="text-align: right; color: #212121;">
+                           <p style="font-weight: 300; margin: 0;line-height: 20px; letter-spacing: 2px; padding: 20px 10px 0; display: inline-block;">
                               <a href="https://example.com/5" target="_blank" style="font-size: 13px; color: #212121; color: inherit;">MEN'S</a>
                            </p>
                         </td>
